@@ -1,6 +1,11 @@
 %% Numerical Assignment 3
 
+
+
+
 %  EXERCISE 1 
+
+
 %  Data: Eurostat Inflation & Unemployment 1993-2023
 %  Countries: Greece (GR) and Germany (DE)
 
@@ -197,6 +202,15 @@ for country = 1:2
     grid on; box on;
 end
 sgtitle('Data Overview: Inflation and Unemployment 1993-2023', 'FontSize', 13, 'FontWeight', 'bold');
+
+
+
+
+
+
+
+
+
 
 %% EXERCISE 2
 
@@ -558,14 +572,21 @@ figure(fig_24);
 sgtitle('Sxhma 2.4 - Distributions of Inflation (top) and Unemployment (bottom) - All Regimes',...
         'FontSize', 11, 'FontWeight', 'bold');
 
-%% =========================================================
+
+
+
+
+
+
+
 %  SECTION 3 - DATA: FIGURES
 %  Fig 5:  Static PC scatter (Greece & Germany)
 %  Fig 6:  PC Slope bar chart across subperiods
 %  Fig 7:  Real vs Projected Inflation (full period)
 %  Fig 8:  Real vs Projected by Subperiod - Greece
 %  Fig 9:  Real vs Projected by Subperiod - Germany
-%% =========================================================
+
+
 
 color_subperiods_s3 = [0.20 0.55 0.74;
                        0.17 0.63 0.30;
